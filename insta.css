@@ -1,0 +1,308 @@
+nav{
+    width: 18%;
+    border-right: 1px solid rgb(196, 194, 194);
+}
+.post{
+    width: 50%;
+    margin: auto;  
+}
+.con3{
+    width: 32%;
+}
+.logo-half{
+    width: 18%;
+    height: 80%;
+    justify-content: space-between;
+    position: fixed;
+}
+.logo-half img{
+margin: auto;
+display: flex;
+}
+ul{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: -14px;    
+}
+ul a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#dp{
+    border-radius: 50%;
+}
+#img{
+    width: 120px !important;
+   margin-left: 18px !important;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+li img{
+    width: 10%;
+}
+li {
+    display: flex;
+}
+li img{
+    width: 30px;
+}
+li a{
+    padding-left: 10px;
+    width: 80%;
+}
+.insta{
+    display: flex;
+}
+.story{
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 20px ;
+    padding-left: 50px;
+    margin-right: 50px;
+}
+.story::-webkit-scrollbar { 
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Safari and Chrome */
+}
+.story img{
+    width: 90%;
+    border: double 3px transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(238, 255, 0),#ff20da);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.story figure{
+    margin: auto;
+    min-width: 100px;
+    max-width: 100px;
+    padding-right: 15px;
+}
+.story figcaption{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+}
+.main{
+   
+   width: 70%;
+   margin: auto;
+   font-size: 14px;
+}
+.head{
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 10px !important;
+}
+.head img{
+    width: 50px !important;
+}
+.first{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.first img{
+    border-radius: 50%;
+    width: 30px !important;
+}
+.second{
+    width: 50%;
+    text-align: end; 
+    font-size: 25px;
+}
+.name span{
+    color: gray;
+}
+.name{
+    font-weight: 500;
+}
+.img img{
+   
+    width: 100%;
+    border-radius: 5px;
+}
+.activity{
+    display: flex;
+    margin: 10px auto;
+}
+.like {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.activity img{
+    width: 27px;
+    height: 27px;
+}
+.save{
+    width: 70%;
+    display:flex;
+    justify-content: end;
+}
+.likecount{
+    font-weight: 500;
+}
+.caption{
+    font-weight: 500;
+}
+.caption span{
+    font-weight: 400;
+}
+.trans{
+    font-size: 14px;
+    font-weight: 500;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(163, 160, 160);
+    padding: 10px auto;
+    padding-left: 0;
+    outline: none;
+}
+.sub-con{
+    width: 80%;
+    margin: auto;
+}
+.con{
+    display: flex;
+    margin-top: 20px ; 
+}
+.con img{
+    width: 13%;
+    border-radius: 50%;
+}
+
+.text{
+    padding-left: 5px;
+    text-align: start;
+    width: 60%;
+}
+.action{
+    text-align: end;
+    color:rgb(115, 192, 240);
+    font-size: 13px;
+    font-weight: 500;
+    width: 40%;
+}
+.sug{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.transs{
+    font-weight: 400;
+    font-size: 14px;
+}
+.captionn{
+    font-size: 14px;
+    font-weight: 500;
+}
+.img img {
+    width: 100%;
+    max-height: 450px;
+    min-height: 450px; 
+}
+.start{
+        display: none;
+        width: 100%;
+}
+.toggel{
+    width: 100%;
+    position: none;
+    bottom: -1px;
+    background-color: white;
+   
+}
+.toggel ul {
+    width: 102%;
+    justify-content: space-evenly;
+    margin-left: -44px;
+    background-color: white;
+    flex-direction: row;
+    height: 41px;
+    padding-top: 13px !important;
+    /* align-items: center; */
+    position: none;
+    bottom: -17px;
+}
+.toggel img{
+    
+    background-color: white;
+    position: fixed;
+    
+}
+.toggel li{
+    padding-right: 42px;
+}
+@media only screen and (max-width: 700px) {
+    .post{
+        width: 100% !important;
+    }
+    .story{
+        width: 100% ;   
+    }
+    .main{
+        width: 100%;
+    }
+    .start{
+        display:flex;
+    }
+    nav{
+        display: none;
+     }
+     .toggel{
+        position: fixed;
+        border-top: 1px solid gray; 
+    }
+    
+}
+@media only screen and (max-width: 1000px ){
+
+    .con3 {
+        display: none;
+    }
+    .logo-half a{
+        display: none;
+    }
+    nav{
+        width: 20%;
+    }
+    .post{
+        width: 80%;
+    }
+    .story{
+        width: 100%;
+        padding-left: 5px;
+    }
+    .main{
+        width: 80%;
+} 
+}
+@media only screen and (max-width: 500px ){
+    .post{
+        width: 100%;
+    } 
+    .story{
+        width: 100%;
+        padding-left: 5px;
+    }
+    .main{
+        width: 100%;
+    }
+    .toggel ul{
+        position: fixed;
+    }
+
+}  
+    
+
+    
+    
